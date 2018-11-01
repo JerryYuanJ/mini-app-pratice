@@ -1,0 +1,17 @@
+<view class="slider">
+  <swiper class='slider-items' indicator-dots="{{true}}"
+          indicator-color="white" interval="{{true}}">
+    <block wx:for="{{[1,2,3]}}" wx:key="*this">
+      <swiper-item>
+        <view class='slider-item item-{{index}}'></view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='{{tabFixed ? "fixed-tab" : ""}}'>
+  <view class='tab'>
+    <tabbar tabItems="{{tabOptions}}">
+    </tabbar>
+  </view>
+</view>
+<view class='content'></view>

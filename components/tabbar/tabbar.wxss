@@ -1,0 +1,29 @@
+.tabbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 28rpx;
+  box-shadow: 0 6rpx 6rpx 0 #f0f0f0;
+}
+
+.tabbar-item {
+  flex: 1;
+  text-align: center;
+  padding: 30rpx 0;
+  color: #b5b4ba;
+}
+
+.tabbar-title{
+  display: inline-block;
+}
+
+.selected-slider {
+  position: absolute;
+  content: " ";
+  left: 0;
+  bottom: 0;
+  width: 33.33%;
+  height: 6rpx;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+}

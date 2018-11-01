@@ -1,0 +1,8 @@
+<view class="placeholder-content flex-center">占位的一个div</view>
+<view class='{{tabFixed ? "fixed-tab" : ""}}'>
+  <view class='tab'>
+    <tabbar tabItems="{{tabOptions}}">
+    </tabbar>
+  </view>
+</view>
+<view class='content'></view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar"
+  },
+  "navigationBarTitleText": "顶部吸附元素(PageScroll实现)"
+}

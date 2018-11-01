@@ -1,0 +1,7 @@
+<view class='tab'>
+  <tabbar tab-items="{{tabOptions}}" actived-color="green" bind:tab-change="onTabChange">
+  </tabbar>
+</view>
+<view class='tab-content tab-{{currentTabIndex}}'>
+  {{'当前Tab: ' + currentTabIndex}}
+</view>

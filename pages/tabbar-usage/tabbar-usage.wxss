@@ -1,0 +1,16 @@
+.tab-content{
+  margin-top: 10rpx;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+}
+.tab-0{
+  background-color: lightblue;
+}
+.tab-1{
+  background-color: lightgreen;
+}
+.tab-2{
+  background-color: lightpink;
+}

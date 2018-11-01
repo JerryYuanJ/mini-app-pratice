@@ -1,0 +1,34 @@
+.slider{
+  position: relative;
+}
+.slider-items{
+  height: 260rpx;
+}
+.slider-item {
+  width: 100%;
+  height: 600rpx;
+}
+.item-0{
+  background-color: lightblue;
+}
+.item-1{
+  background-color: lightgreen;
+}
+.item-2{
+  background-color: lightpink;
+}
+.tab{
+  background-color: white;
+}
+.fixed-tab{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.content{
+  height: 1500px;
+  background-color: #eaeaea;
+  width: 100%;
+}

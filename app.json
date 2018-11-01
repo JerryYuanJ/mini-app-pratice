@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tabbar-usage/tabbar-usage",
+    "pages/fixed-ele-observer/fixed-ele-observer",
+    "pages/fixed-ele-scroll/fixed-ele-scroll",
+    "pages/readmore/readmore"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,8 @@
+.index{
+  margin: 100rpx 50rpx;
+}
+button{
+  margin-bottom: 20rpx;
+  padding: 10rpx;
+  font-size: 30rpx;
+}

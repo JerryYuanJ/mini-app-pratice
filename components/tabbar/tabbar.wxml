@@ -1,0 +1,15 @@
+<view class='tabbar-container'>
+  <view class='tabbar'>
+    <block wx:for="{{tabItems}}" wx:key="ti+{{index}}">
+      <view id="{{index}}"
+            class='tabbar-item'
+            style='{{ activedIndex == index ? ("color: " + activedColor) : "" }}'      
+            bindtap="clickTab">
+        <view class="tabbar-title">{{item}}</view>
+      </view>
+    </block>
+    <view class='selected-slider'
+          style="transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);background-color: {{activedColor}}">
+    </view>
+  </view>
+</view>
