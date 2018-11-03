@@ -3,4 +3,5 @@
   <button type='primary' data-tag='readmore'>文字的"查看更多"效果</button>  
   <button type='primary' data-tag='fixed-v1'>页面滚动吸附在顶部的元素(observer实现)</button>
   <button type='primary' data-tag='fixed-v2'>页面滚动吸附在顶部的元素(page-scroll实现)</button>
+  <button type='primary' bindtap='openMap'>调用地图</button>
 </view>

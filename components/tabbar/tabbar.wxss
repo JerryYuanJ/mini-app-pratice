@@ -16,7 +16,6 @@
 .tabbar-title{
   display: inline-block;
 }
-
 .selected-slider {
   position: absolute;
   content: " ";
@@ -24,6 +23,7 @@
   bottom: 0;
   width: 33.33%;
   height: 6rpx;
+  /* 选中页签时滑动的移动动画 */  
   -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
 }

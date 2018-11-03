@@ -1,3 +1,4 @@
+<view class='fixed-position'></view>
 <view class="slider">
   <swiper class='slider-items' indicator-dots="{{true}}"
           indicator-color="white" interval="{{true}}">

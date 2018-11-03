@@ -14,5 +14,17 @@ Page({
         url: this.data.pageMap[tag],
       })
     }
+  },
+  openMap() {
+    wx.chooseLocation({
+      success(res) {
+        if (res.name) {
+          wx.showModal({
+            title: '您选择了',
+            content: res.address + ' ' + res.name,
+          })
+        }
+      }
+    })
   }
 })

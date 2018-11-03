@@ -2,5 +2,6 @@
   "usingComponents": {
     "tabbar": "/components/tabbar/tabbar"
   },
-  "navigationBarTitleText": "顶部吸附元素(Observer实现)"
+  "navigationBarTitleText": "顶部吸附元素(Observer实现)",
+  "navigationBarBackgroundColor": "#eaeaea"
 }
