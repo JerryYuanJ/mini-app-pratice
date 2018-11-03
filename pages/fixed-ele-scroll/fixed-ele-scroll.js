@@ -30,7 +30,7 @@ Page({
      * query.select(".tab").boundingClientRect(function (res) {
           console.info(res)
           self.setData({
-            placeholderHeight: res.height
+            placeholderHeight: res.top
           })
         }).exec()
      */
