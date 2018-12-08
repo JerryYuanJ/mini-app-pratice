@@ -32,6 +32,12 @@ git clone https://github.com/JerryYuanJ/mini-app-pratice.git
   * IntersectionObserver 详解：[https://blog.csdn.net/qq_25324335/article/details/83687695](https://blog.csdn.net/qq_25324335/article/details/83687695)
   * 应用实现：[https://blog.csdn.net/qq_25324335/article/details/83688923](https://blog.csdn.net/qq_25324335/article/details/83688923)
 
-
 ### 4.元素随着页面的滚动吸附在顶部的实现（使用页面监听函数 onPageScroll ）
 * 博客：[https://blog.csdn.net/qq_25324335/article/details/83688923](https://blog.csdn.net/qq_25324335/article/details/83688923)
+  
+### 5.调用微信原生地图的简单应用
+
+### 6. 自定义弹出层
+
+### 6.自定义下拉刷新组件
+ **有bug，使用微信的动画API，动画只能执行一次，参考了微信开发者社区的解决方法，即复原动画，也没有用。后续有时间会使用原生js改写动画实现，如果你参考本组件，请不要在生产环境使用（功能不影响，但是会影响用户体验）**
