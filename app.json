@@ -4,7 +4,9 @@
     "pages/tabbar-usage/tabbar-usage",
     "pages/fixed-ele-observer/fixed-ele-observer",
     "pages/fixed-ele-scroll/fixed-ele-scroll",
-    "pages/readmore/readmore"
+    "pages/readmore/readmore",
+    "pages/my-modal/my-modal",
+    "pages/scroll/scroll"
   ],
   "window": {
     "backgroundTextStyle": "light",

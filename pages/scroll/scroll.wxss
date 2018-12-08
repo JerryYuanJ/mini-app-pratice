@@ -1,0 +1,33 @@
+page{
+  position: relative;
+}
+
+.box{
+  position: relative;
+  height: 200rpx;
+  background-color: #eaeaea;
+  width: 1005;
+  z-index: 99;
+}
+
+.scroll-container{
+  height: 400px;
+  width: 100%;
+  position: relative;
+  overflow: scroll;
+}
+
+.tip{
+  text-align: center;
+  font-size: 24rpx;
+  color: black;
+  height: 30rpx;
+  line-height: 30rpx;
+  background-color: #f0f0f0;
+}
+
+.inside{
+  position: relative;
+  height: 1000px;
+  background: linear-gradient(lightblue, lightgreen);
+}

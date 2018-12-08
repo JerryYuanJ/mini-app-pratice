@@ -1,0 +1,15 @@
+.modal{
+  position: absolute;
+  z-index: 99;
+  background: rgba(0,0,0,0.3);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* 占据全屏 */
+  height: 100vh;
+  /* 内容局中显示(垂直&水平) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

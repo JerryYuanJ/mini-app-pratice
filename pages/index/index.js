@@ -4,7 +4,9 @@ Page({
       tab: "../tabbar-usage/tabbar-usage",
       "fixed-v1": "../fixed-ele-observer/fixed-ele-observer",
       "fixed-v2": "../fixed-ele-scroll/fixed-ele-scroll",
-      readmore: "../readmore/readmore"
+      readmore: "../readmore/readmore",
+      modal: '../my-modal/my-modal',
+      scroll: '../scroll/scroll'
     }
   },
   go(e) {

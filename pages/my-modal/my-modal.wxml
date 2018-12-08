@@ -1,0 +1,34 @@
+<view class='my-modal'>
+  <view class="buttons">
+    <button type='default' bindtap='displayModal1'>弹出带输入框的</button>
+    <button type='default' bindtap='displayModal2'>弹出带图片的</button>
+  </view>
+  <!-- 带输入框的modal -->
+  <modal wx:if="{{show1}}" catchtouchmove="touchMove">
+    <view class='modal-content'>
+      <view class='header'>提示</view>
+      <view class='content'>
+        <input placeholder='请输入金额' value='{{money}}'></input>
+      </view>
+      <view class='footer'>
+        <button size='mini' class='footer-btn' bindtap='hideModal1'>取消</button>
+        <button size='mini' class='footer-btn' type='primary' bindtap='hideModal1'>
+          确定
+        </button>
+      </view>
+    </view>
+  </modal>
+  <!-- 带图片的信息提示modal -->
+  <modal wx:if="{{show2}}" catchtouchmove="touchMove">
+    <view class='modal-content'>
+      <view class='header'>红包领取通知</view>
+      <view class='content'>
+        <image src='/assets/red-pocket.svg' class='img'></image>
+        <view class='tip'>点击拆取红包赢现金！！</view>
+      </view>
+      <view class='footer-close' bindtap='hideModal2'>
+        X
+      </view>
+    </view>
+  </modal>
+</view>

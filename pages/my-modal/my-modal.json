@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "modal": "/components/modal/modal"
+  },
+  "navigationBarTitleText": "使用自定义的弹出框"
+}

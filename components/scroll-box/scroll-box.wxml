@@ -1,0 +1,10 @@
+<scroll-view class='scroll-container'
+        animation="{{am}}" 
+        bindtransitionend="endFn"
+        style='top: {{scrollTop}}rpx'
+             scroll-y>
+  <view class='tip'>{{refreshTip}}</view>
+  <view class='inside'
+        bindtouchstart='touchStart' 
+        bindtouchend='touchEnd'></view>
+</scroll-view>

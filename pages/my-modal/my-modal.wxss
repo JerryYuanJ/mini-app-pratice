@@ -1,0 +1,103 @@
+.my-modal {
+  position: relative;
+  height: 2000px;
+}
+
+.buttons {
+  padding: 60rpx;
+}
+
+.buttons button {
+  margin-bottom: 40rpx;
+}
+
+.modal-content {
+  border-radius: 10rpx;
+  background-color: white;
+  width: 60%;
+  margin-bottom: 260rpx;
+  font-size: 30rpx;
+  padding: 0 20rpx;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1rpx solid #eaeaea;
+  padding: 20rpx 0;
+}
+
+.content {
+  padding: 40rpx 0;
+  text-align: center;
+}
+
+input {
+  border-bottom: 1px solid lightblue;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30rpx;
+}
+
+.footer-btn {
+  width: 40%;
+}
+
+.img {
+  width: 120rpx;
+  height: 120rpx;
+  /* 给图片添加的左右摇摆的动画效果 */
+  animation: shake 1s 0.15s linear infinite;
+  -moz-animation: shake 1s 0.15s linear infinite;
+  -webkit-animation: shake 1s 0.15s linear infinite;
+  -o-animation: shake 1s 0.15s linear infinite;
+}
+
+.tip {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: red;
+}
+
+/* 关闭按钮的样式 */
+
+.footer-close {
+  position: absolute;
+  bottom: -50rpx;
+  height: 50rpx;
+  width: 50rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.288);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+
+  20% {
+    transform: rotate(-10deg);
+  }
+
+  30% {
+    transform: rotate(5deg);
+  }
+
+  40% {
+    transform: rotate(-5deg);
+  }
+
+  50%, 100% {
+    transform: rotate(0deg);
+  }
+}

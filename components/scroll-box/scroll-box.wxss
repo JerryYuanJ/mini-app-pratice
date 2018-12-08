@@ -1,0 +1,21 @@
+.scroll-container{
+  height: 400px;
+  width: 100%;
+  position: relative;
+  overflow: scroll;
+}
+
+.tip{
+  text-align: center;
+  font-size: 24rpx;
+  color: black;
+  height: 30rpx;
+  padding: 10rpx;
+  background-color: purple;
+}
+
+.inside{
+  position: relative;
+  height: 1000px;
+  background: linear-gradient(lightblue, lightgreen);
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "scroll-view的用法",
+  "usingComponents": {
+    "scroll-box": "/components/scroll-box/scroll-box"
+  }
+}
