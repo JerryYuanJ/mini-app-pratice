@@ -3,7 +3,7 @@
 ### 0.说明：
 * 项目演示图
 
-![https://github.com/JerryYuanJ/mini-app-pratice/blob/master/demo.gif](https://github.com/JerryYuanJ/mini-app-pratice/blob/master/demo.gif)
+![demo.gif](./demo.gif)
 
 * 项目导入
 
@@ -39,5 +39,5 @@ git clone https://github.com/JerryYuanJ/mini-app-pratice.git
 
 ### 6. 自定义弹出层
 
-### 6.自定义下拉刷新组件
- **有bug，使用微信的动画API，动画只能执行一次，参考了微信开发者社区的解决方法，即复原动画，也没有用。后续有时间会使用原生js改写动画实现，如果你参考本组件，请不要在生产环境使用（功能不影响，但是会影响用户体验）**
+### 7.自定义下拉刷新组件
+ > **有bug，使用微信的动画API，动画只能执行一次，参考了微信开发者社区的解决方法，即复原动画，也没有用。后续有时间会使用原生js改写动画实现，如果你参考本组件，请不要在生产环境使用（功能不影响，但是会影响用户体验）**
