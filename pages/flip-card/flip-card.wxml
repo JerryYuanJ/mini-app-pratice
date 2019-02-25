@@ -1,0 +1,13 @@
+<view class="flip-card">
+  <view class="flip-card-inner" 
+        style='transform: rotateY({{showFront ? "180deg": "0"}});'>
+    <view class="flip-card-front">
+      <view>正面：湖人总冠军</view>
+    </view>
+    <view class="flip-card-back">
+      <view>背面：科比MVP</view>
+    </view>
+  </view>
+</view> 
+
+<button style='margin: 100rpx;' bindtap='flip'>翻转</button>

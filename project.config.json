@@ -39,9 +39,11 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "now",
-					"pathName": "pages/scroll/scroll"
+					"pathName": "pages/flip-card/flip-card",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

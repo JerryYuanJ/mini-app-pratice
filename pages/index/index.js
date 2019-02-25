@@ -6,7 +6,8 @@ Page({
       "fixed-v2": "../fixed-ele-scroll/fixed-ele-scroll",
       readmore: "../readmore/readmore",
       modal: '../my-modal/my-modal',
-      scroll: '../scroll/scroll'
+      scroll: '../scroll/scroll',
+      flip: '../flip-card/flip-card'
     }
   },
   go(e) {

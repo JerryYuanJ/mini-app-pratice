@@ -6,4 +6,5 @@
   <button type='primary' bindtap='openMap'>调用地图</button>
   <button type='primary' data-tag='modal'>自定义弹出层</button>
   <button type='primary' data-tag='scroll'>scroll-view刷新</button>
+  <button type='primary' data-tag='flip'>卡片翻转</button>
 </view>

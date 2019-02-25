@@ -1,0 +1,30 @@
+<view class="photo-picker">
+  <view class="photos-container">
+    <view wx:for="{{photos}}" class='photo-container' wx:key="{{index}}">
+      <image src='/assets/delete.svg' class='delete-icon'
+             wx:if="{{showDelete}}" catchtap='deletePhoto'
+             data-index='{{index}}'></image>
+      <image src='{{item}}' class='photo' catchlongpress='showDeleteIcon'></image>
+    </view>
+    <view class='photo-container add-photo-btn'
+          bindtap='addPhoto'
+          wx:if="{{photos.length < 9}}"
+          hover-class='btn-hover' hover-start-time='0'>
+    </view>
+  </view>
+</view>
+
+<movable-area style="height: 200px; width: 90%; background: lightgreen;">
+    <movable-view
+      style="height: 50px; width: 50px; background: blue;"
+      x="{{x}}"
+      y="{{y}}"
+      direction="all"
+    ></movable-view>
+    <movable-view
+      style="height: 50px; width: 50px; background: blue;"
+      x="{{x+60}}"
+      y="{{y}}"
+      direction="all"
+    ></movable-view>
+  </movable-area>

@@ -1,0 +1,58 @@
+.photos-container {
+  margin-bottom: 30rpx;
+}
+
+.photo-container {
+  width: 180rpx;
+  height: 180rpx;
+  margin-top: 10rpx;
+  margin-right: 24rpx;
+  display: inline-block;
+  position: relative;
+}
+
+.photo {
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.add-photo-btn {
+  background-color: #f0f0f0;
+  width: 180rpx;
+  height: 180rpx;
+  position: relative;
+}
+
+.add-photo-btn::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100rpx;
+  margin-left: -50rpx;
+  margin-top: -4rpx;
+  border-top: 8rpx solid #cccccc;
+}
+
+.add-photo-btn::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100rpx;
+  margin-top: -50rpx;  
+  margin-left: -4rpx;
+  border-left: 8rpx solid #cccccc;
+}
+
+.btn-hover {
+  background-color: #eaeaea;
+}
+
+.delete-icon{
+  height: 34rpx;
+  width: 34rpx;
+  position: absolute;
+  left: -14rpx;
+  top: -14rpx;
+}

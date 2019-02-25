@@ -6,7 +6,8 @@
     "pages/fixed-ele-scroll/fixed-ele-scroll",
     "pages/readmore/readmore",
     "pages/my-modal/my-modal",
-    "pages/scroll/scroll"
+    "pages/scroll/scroll",
+    "pages/flip-card/flip-card"
   ],
   "window": {
     "backgroundTextStyle": "light",
