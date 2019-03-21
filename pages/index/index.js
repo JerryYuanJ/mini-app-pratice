@@ -7,7 +7,8 @@ Page({
       readmore: "../readmore/readmore",
       modal: '../my-modal/my-modal',
       scroll: '../scroll/scroll',
-      flip: '../flip-card/flip-card'
+      flip: '../flip-card/flip-card',
+      canvas: '../canvas/canvas'
     }
   },
   go(e) {

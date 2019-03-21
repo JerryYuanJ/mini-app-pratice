@@ -1,0 +1,38 @@
+page{
+  font-size: 28rpx;
+}
+
+.input-line{
+  display: flex;
+  margin: 0 10rpx;
+}
+
+.input-line input{
+  border-bottom: 1px solid #f0f0f0;
+  flex: 1;
+}
+
+.input-line .draw-btn{
+  background-color: maroon;
+  color: white;
+  margin-left: 10rpx;
+  font-size: 24rpx;
+  border-radius: 6rpx;
+  padding: 4rpx 8rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.preview-tip{
+  background-color: #0001;
+  margin: 30rpx;
+  margin-bottom: 0;
+  padding: 10rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.canvas{
+  width: 750rpx;
+  height: 200px
+}

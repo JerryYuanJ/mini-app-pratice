@@ -41,7 +41,7 @@
 				{
 					"id": 0,
 					"name": "now",
-					"pathName": "pages/flip-card/flip-card",
+					"pathName": "pages/canvas/canvas",
 					"query": "",
 					"scene": null
 				}

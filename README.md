@@ -52,3 +52,12 @@ git clone https://github.com/JerryYuanJ/mini-app-pratice.git
 效果：
 
 ![flip-card-demo.gif](./demo-gifs/demo-flip-card.gif)
+
+
+### 9. canvas初识之生成一张文字图片(可用于至于简单的文字表情包)
+
+**TODO:** 实现文字换行/文字样式定制/图文混排?/...
+
+目前效果：
+
+![canvas-01.gif](./demo-gifs/canvas-01.gif)

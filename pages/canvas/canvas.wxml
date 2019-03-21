@@ -1,0 +1,13 @@
+<view class='input-line'>
+  <input placeholder='请输入文字' bindblur='getInput'></input>
+  <view class='draw-btn' bindtap='drawPicture'>预览</view>
+</view>
+
+<view class='preview-tip' wx:if="{{ hasPicture }}">
+  <view>预览图</view>
+  <icon type="download" size="20" bindtap='savePicture'/>
+</view>
+
+<canvas class='canvas' canvas-id="c-1"></canvas>
+
+
